@@ -1,0 +1,339 @@
+.plus {  
+  font-family:'montserrat';
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  font-size:25px;
+  display: block;
+  text-transform: uppercase;
+}
+.plus_desc {  
+  font-family:'montserrat';
+  font-weight:normal;
+  color:rgba(255,255,255,.85);
+  font-size: 15px;
+}
+
+/*custom css*/
+.carousel-indicators{
+  display: none;
+}
+#process-carousel{
+  background-color: #222;
+}
+.carousel-inner .item{
+    padding-top: 40px;
+}
+.carousel-control.right, .carousel-control.left{
+    background-image: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+        .process-icons{
+          background-image: url(assets/img/process-icons.png);
+          background-repeat: no-repeat;
+          width: 166px;
+          height: 169px;
+          margin: auto;
+        }
+        .process-1{
+          background-position: 0px 0px;
+        }
+        .process-2{
+          background-position: -230px 0px;
+        }
+        .process-3{
+          background-position: -460px 0px;
+        }
+        .process-4{
+          background-position: -690px 0px;
+        }
+        .process-5{
+          background-position: -920px 0px;
+        }
+        .process-6{
+          background-position: -1153px 0px;
+        }
+        .process-7{
+          background-position: -1383px 0px;
+        }
+        .carousel-inner{
+          /*background-color: rgba(0, 67, 110, 1);*/
+        }
+
+        ol.carousel-indicators li{
+          outline: 0px none;
+          opacity: 0.3;
+          margin: 5px;
+          width: 44px;
+          height: 44px;
+          text-indent: 0px;
+          border: 0px none;
+          border-radius: 0px;
+          /*background-color: red;*/
+          transition: opacity 500ms linear 0s;
+        }
+
+
+        #process-carousel .icon-small {
+          width: 44px;
+          height: 44px;
+          display: inline-block;
+          background-image: url('assets/img/process-icons.png');
+          background-repeat: no-repeat;
+          background-size: auto 54px;
+        }
+        span.icon-small.step-1{
+          background-position: 0px 0px;
+        }
+        span.icon-small.step-2{
+          background-position: -59px 0px;
+        }
+        span.icon-small.step-3{
+          background-position: -118px 0px;
+        }
+        span.icon-small.step-4{
+          background-position: -177px 0px;
+        }
+        span.icon-small.step-5{
+          background-position: -236px 0px;
+        }
+        span.icon-small.step-6{
+          background-position: -295px 0px;
+        }
+        span.icon-small.step-7{
+          background-position: -354px 0px;
+        }
+        
+
+        div.carousel-inner .item .item-wrapper h2{
+          font-family: 'open sans';
+          font-weight: 300;
+          font-size: 42px;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          text-align: center;
+        }
+        div.carousel-inner .item .item-wrapper{
+          width: 695px;
+          margin: auto;
+        }
+        div.carousel-inner .item .item-wrapper p{
+          font-family: "open sans";
+          font-size: 25px;
+          text-align: center;
+          font-weight: 200;
+          display: block;
+          height: 130px;
+        }
+        .carousel.slide{
+          margin: 50px auto;
+          height: 450px;
+        }
+/*------------------------------------------------------------------------------------------------------------------*/
+        button {
+          -webkit-appearance: none;
+          background: transparent;
+          border: 0;
+          outline:0;
+        }
+
+        svg {
+          padding: 5px;
+        }
+
+        .arrow {
+          width: 75px;
+          height: 90px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          top: 0;
+          bottom: 0;
+        }
+
+        .left:hover polyline,
+        .left:focus polyline {
+          stroke-width: 3;
+        }
+
+        .left:active polyline {
+          stroke-width: 6;
+          transition: all 100ms ease-in-out;
+        }
+
+        .right:hover polyline,
+        .right:focus polyline {
+          stroke-width: 3;
+        }
+
+        .right:active polyline {
+          stroke-width: 6;
+          transition: all 100ms ease-in-out;
+        }
+
+        polyline {
+          transition: all 250ms ease-in-out;
+        }
+
+/*------------------------------------------------------------------------------------------------------------------*/
+        .process-icons{
+          background-image: url(../img/process-icons.png);
+          background-repeat: no-repeat;
+          width: 166px;
+          height: 169px;
+          margin: auto;
+        }
+        .process-1{
+          background-position: 0px 0px;
+        }
+        .process-2{
+          background-position: -230px 0px;
+        }
+        .process-3{
+          background-position: -460px 0px;
+        }
+        .process-4{
+          background-position: -690px 0px;
+        }
+        .process-5{
+          background-position: -920px 0px;
+        }
+        .process-6{
+          background-position: -1153px 0px;
+        }
+        .process-7{
+          background-position: -1383px 0px;
+        }
+        .carousel-inner{
+          /*background-color: rgba(0, 67, 110, 1);*/
+        }
+
+        ol.carousel-indicators li{
+          outline: 0px none;
+          opacity: 0.3;
+          margin: 5px;
+          width: 44px;
+          height: 44px;
+          text-indent: 0px;
+          border: 0px none;
+          border-radius: 0px;
+          /*background-color: red;*/
+          transition: opacity 500ms linear 0s;
+        }
+
+
+        #process-carousel .icon-small {
+          width: 44px;
+          height: 44px;
+          display: inline-block;
+          background-image: url('assets/img/process-icons.png');
+          background-repeat: no-repeat;
+          background-size: auto 54px;
+        }
+        span.icon-small.step-1{
+          background-position: 0px 0px;
+        }
+        span.icon-small.step-2{
+          background-position: -59px 0px;
+        }
+        span.icon-small.step-3{
+          background-position: -118px 0px;
+        }
+        span.icon-small.step-4{
+          background-position: -177px 0px;
+        }
+        span.icon-small.step-5{
+          background-position: -236px 0px;
+        }
+        span.icon-small.step-6{
+          background-position: -295px 0px;
+        }
+        span.icon-small.step-7{
+          background-position: -354px 0px;
+        }
+        
+
+        div.carousel-inner .item .item-wrapper h2{
+          font-family: 'open sans';
+          font-weight: 300;
+          font-size: 42px;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          text-align: center;
+          color: #63b93a;
+        }
+        div.carousel-inner .item .item-wrapper{
+          width: 695px;
+          margin: auto;
+        }
+        div.carousel-inner .item .item-wrapper p{
+          font-family: "open sans";
+          font-size: 25px;
+          text-align: center;
+          font-weight: 200;
+          display: block;
+          height: 130px;
+        }
+        .carousel.slide{
+          //margin: 50px auto!important;
+          height: 450px;
+        }
+
+/*------------------------------------------------------------------------------------------------------------------*/
+        .carousel-control span.glyphicon.glyphicon-chevron-left ,.carousel-control span.glyphicon.glyphicon-chevron-right {
+          display: none;
+        }
+        .carousel-control svg{
+          display: block;
+        }
+        @media only screen and (max-width: 1040px){
+          .carousel-control span.glyphicon.glyphicon-chevron-left,.carousel-control span.glyphicon.glyphicon-chevron-right{
+            display: block;
+          }
+          .carousel-control svg{
+            display: none;
+          }
+        }
+        @media only screen and (max-width: 767px){
+          div.carousel-inner .item .item-wrapper {
+            margin: auto;
+            padding: 0 30px;
+            width: auto;
+          }
+          .carousel-indicators{
+            display: none;
+          }
+        }
+        @media only screen and (max-width: 480px){
+          div.carousel-inner .item .item-wrapper p {
+            font-family: "open sans";
+            font-size: 18px;
+            text-align: center;
+            font-weight: 200;
+          }
+        }
+        @media only screen and (max-width: 360px){
+          div.carousel-inner .item .item-wrapper p {
+            display: none;
+          }
+          .carousel.slide {
+            height: 240px;
+          }
+          .carousel-control {
+            top: 13px;
+            bottom: 0;
+            opacity: 1;
+          }
+          polyline {
+            stroke-width: 3;
+          }
+          .carousel.slide{
+            margin: 0px auto;
+            height: 450px;
+          }
+          .arrow{
+            width: 42px;
+          }
+        }
+/*------------------------------------------------------------------------------------------------------------------*/

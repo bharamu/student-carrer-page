@@ -1,0 +1,159 @@
+
+.headSection{
+	margin-top: 52px;
+}
+.mainHeading-row{
+	margin-top: 98px;
+}
+.mainHeading-col{
+	padding-left: 187px;
+	padding-right: 209px;
+}
+.mainHeading-col h1{
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 62px;
+	padding-bottom: 49px;
+	/*font-weight: bold;*/
+}
+.mainHeading-col p{
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 19px;
+}
+.headBottomLine{
+	background-color: #c7c7c7;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	height: 2px;
+	width: 760px;
+}
+.feedBack-col{
+	text-align: center;
+	font-family: "OpenSans";
+	font-weight: bold;
+	font-size: 29px;
+	margin-bottom: 69px;
+}
+.feedBack{
+	margin-top: 70px;
+}
+.feedBack h2{
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+}
+.feedBack h3{
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 21px;
+}
+.feedBack p{
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 16px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-weight: 100;
+}
+.intrenshipField{
+	text-align: center;
+	font-family: "Myriad Pro";
+	font-size: 29px;
+	margin-bottom: 57px;
+}
+.engineering, .design, .salesAndMarketing{
+padding-top:58px;
+}
+.engineeringBtn, .designBtn, .salesAndMarketingBtn{
+	background-color: #ffffff;
+	border: 2px solid #415b76;
+	width:100%;
+	max-width: 270px;
+	height: 57px;
+	border-radius: 8px;
+	color: #415b76;
+
+}
+.engineeringBtn:active, .designBtn:active, .salesAndMarketingBtn:active{
+	background-color: #415b76;
+	color:#ffffff;
+} 
+#howItWork {
+	font-family: "Myriad Pro";
+	font-size: 37px;
+	text-align: center;
+
+}
+ .step-img{
+	margin-top: 115px;
+}
+.step1-content{
+	margin-top: 115px;
+}
+.step2-content{
+	padding-top: 284px;
+}
+.step3-content{
+	padding-top: 225px
+}
+.step4-content{
+	padding-top: 95px
+}
+.step1-content h2, .step2-content h2, .step3-content h2, .step4-content h2{
+	text-align: left;
+	font-family: "Myriad Pro";
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.step1-content h3, .step2-content h3, .step3-content h3, .step4-content h3{
+	text-align: left;
+	font-family: "Myriad Pro";
+	font-size: 33px;
+}
+.step1-content p, .step2-content p, .step3-content p, .step4-content p{
+	text-align: left;
+	font-family: "Myriad Pro";
+	font-size: 17px;
+	line-height: 19px;
+}
+.applyNow-btn{
+	text-transform: uppercase;
+	text-align: center;
+	font-family:  "Myriad Pro";
+	font-size: 38px;
+	background-color: #415b76;
+	color: #ffffff;
+	border:none;
+	max-width: 345px;
+	width:100%;
+	height: 79px;
+}
+.applyNow{
+	margin-bottom: 53px;
+	margin-top: 200px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.mainHeading-row{
+		margin-top: auto;
+	}
+	.mainHeading-col{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.engineeringBtn, .designBtn, .salesAndMarketingBtn{
+		padding-bottom: 30px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.mainHeading-col{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+}
