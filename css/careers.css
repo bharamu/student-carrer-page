@@ -74,11 +74,29 @@ padding-top:58px;
 	height: 57px;
 	border-radius: 8px;
 	color: #415b76;
+	text-decoration: none;
+	display: block;
+	font-family:"Montserrat";
+	font-size: 21px;
+	text-align:center;
+	padding-top: 10px;
 
 }
-.engineeringBtn:active, .designBtn:active, .salesAndMarketingBtn:active{
+a:visited,a:focus{
+	text-decoration: none;
+}
+.engineeringBtn.acive, .designBtn.acive, .salesAndMarketingBtn.acive,
+.engineeringBtn:active, .designBtn:active, .salesAndMarketingBtn:active,
+.engineeringBtn:hover, .designBtn:hover, .salesAndMarketingBtn:hover,
+.engineeringBtn:focus, .designBtn:focus, .salesAndMarketingBtn:focus{
 	background-color: #415b76;
 	color:#ffffff;
+	text-decoration:none;
+	font-family:"Montserrat";
+	font-size:21px;
+	text-align:center;
+	padding-top: 10px;
+
 } 
 #howItWork {
 	font-family: "Myriad Pro";
@@ -101,18 +119,21 @@ padding-top:58px;
 .step4-content{
 	padding-top: 95px
 }
-.step1-content h2, .step2-content h2, .step3-content h2, .step4-content h2{
+.step5-content, .step6-content{
+	padding-top: 300px;
+}
+.step1-content h2, .step2-content h2, .step3-content h2, .step4-content h2, .step5-content h2, .step6-content h2{
 	text-align: left;
 	font-family: "Myriad Pro";
 	font-size: 25px;
 	text-transform: uppercase;
 }
-.step1-content h3, .step2-content h3, .step3-content h3, .step4-content h3{
+.step1-content h3, .step2-content h3, .step3-content h3, .step4-content h3, .step5-content h3, .step6-content h3{
 	text-align: left;
 	font-family: "Myriad Pro";
 	font-size: 33px;
 }
-.step1-content p, .step2-content p, .step3-content p, .step4-content p{
+.step1-content p, .step2-content p, .step3-content p, .step4-content p, .step5-content p, .step6-content p{
 	text-align: left;
 	font-family: "Myriad Pro";
 	font-size: 17px;

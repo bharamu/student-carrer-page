@@ -71,7 +71,21 @@
         <div class="row">
           <div class="col-md-12 intrenshipField">
             <h2>I Would like to Intern in </h2>
-            <div class="col-md-4 engineering">
+
+            <div class="nav nav-tabs" role="tablist" id="myTab">
+              <div class="col-md-4 engineering" role="presentation" class="active">
+                <a class="engineeringBtn" href="#enggTab" aria-controls="enggTab" role="tab" data-toggle="tab">Engineering</a>
+              </div>
+              <div class="col-md-4 design" role="presentation">
+                <a class="designBtn" href="#designTab" aria-controls="designTab" role="tab" data-toggle="tab">Design</a>
+              </div>
+              <div class="col-md-4 salesAndMarketing" role="presentation">
+                <a class="salesAndMarketingBtn" href="#SalesTab" aria-controls="SalesTab" role="tab" data-toggle="tab">Sales and Marketing</a>
+              </div>
+            </div>
+
+
+<!--             <div class="col-md-4 engineering">
               <button class="engineeringBtn">Engineering</button>
             </div>
             <div class="col-md-4 design">
@@ -79,94 +93,231 @@
             </div>
             <div class="col-md-4 salesAndMarketing">
               <button class="salesAndMarketingBtn">Sales & Marketing</button>
-            </div>
+            </div> -->
           </div>
         </div>
         <h2 id="howItWork">How we make it work</h2>
-        <div class="row ">
-          <div class="col-md-6 step1-content">
-            <h2>step1</h2>
-            <h3>You write to us</h3>
-            <p>Go on and apply if you:<br><br>
-            Have 1+ year of solid development experience.<br>
-            Are passionate about coding and possess excellent<br> 
-            analytical and problem-solving skills.<br>
-            Are comfortable with PHP, CSS, HTML, or AJAX.<br> 
-            You should also be able to pick up and use any new<br> 
-            language/protocol/framework outside of your core<br> 
-            experience with ease.<br>
-            Are a mobile developer – iOS, Android, or Windows<br> 
-            Phone.<br>
-            Can take ownership of a product – from design and<br> 
-            development, to deploying and debugging.<br>
-            Work as a team player, even in high-pressure situations<br> 
-            and on tight deadlines (this is a mandatory requirement<br> 
-            -our deadlines are insane).</p>
+
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="enggTab">
+            <div class="row ">
+              <div class="col-md-6 step1-content">
+                <h2>step1</h2>
+                <h3>You write to us</h3>
+                <p>Go on and apply if you:<br><br>
+                Have 1+ year of solid development experience.<br>
+                Are passionate about coding and possess excellent<br> 
+                analytical and problem-solving skills.<br>
+                Are comfortable with PHP, CSS, HTML, or AJAX.<br> 
+                You should also be able to pick up and use any new<br> 
+                language/protocol/framework outside of your core<br> 
+                experience with ease.<br>
+                Are a mobile developer – iOS, Android, or Windows<br> 
+                Phone.<br>
+                Can take ownership of a product – from design and<br> 
+                development, to deploying and debugging.<br>
+                Work as a team player, even in high-pressure situations<br> 
+                and on tight deadlines (this is a mandatory requirement<br> 
+                -our deadlines are insane).</p>
+              </div>
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step1_img.png">
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step2_img.png" style="float:left">
+              </div>
+              <div class="col-md-6 step2-content">
+                <h2>step2</h2>
+                <h3>We shortlist and contact you</h3>
+                <p>Once we’ve reviewed your application and you have<br> 
+                  us convinced that we want to spend a week with you,<br> 
+                  we’ll have a quick chat over the phone. Just so you<br> 
+                  know, everyone in our team is here because they<br> 
+                  got past two tests: skill and culture fit.</p>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step5-content">
+                <h2>step3</h2>
+                <h3>Party, Code, Party. Repeat.</h3>
+                <p>If you’re selected, we’ll bring you over to our Gurgaon<br> 
+                  headquarters to spend an all-expenses-paid week<br> 
+                  (more details at the bottom of the page) with our<br> 
+                  engineering team. You’ll work on solving actual<br> 
+                  problems and creating products that will be rolled<br> 
+                  out as part of our development roadmap. It's<br> 
+                  hard work, but twice as fun.</p>
+              </div>
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step5_img.png">
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step4_img.png" style="float:left">
+              </div>
+              <div class="col-md-6 step4-content">
+                 <h2>step4</h2>
+                 <h3>Zoman!</h3>
+                 <p>By the end of the week, we'd have spent enough time <br>
+                  with one another to know how well we can work together.<br> 
+                  If there's that mutual spark and we know we can build<br> 
+                  delicious things together that create magic for a long time<br> 
+                  to come, we'd love nothing more than to have you become<br> 
+                  a full-time Zoman.</p>
+               </div> 
+            </div>
           </div>
-          <div class="col-md-6 step-img">
-            <img class="img-responsive center-block" src="img/step1_img.png">
+          <div role="tabpanel" class="tab-pane" id="designTab">
+            <div class="row ">
+              <div class="col-md-6 step1-content">
+                <h2>step1</h2>
+                <h3>You write to us</h3>
+                <p>Go on and apply if you:<br><br>
+                Have 1+ year of solid development experience.<br>
+                Are passionate about coding and possess excellent<br> 
+                analytical and problem-solving skills.<br>
+                Are comfortable with PHP, CSS, HTML, or AJAX.<br> 
+                You should also be able to pick up and use any new<br> 
+                language/protocol/framework outside of your core<br> 
+                experience with ease.<br>
+                Are a mobile developer – iOS, Android, or Windows<br> 
+                Phone.<br>
+                Can take ownership of a product – from design and<br> 
+                development, to deploying and debugging.<br>
+                Work as a team player, even in high-pressure situations<br> 
+                and on tight deadlines (this is a mandatory requirement<br> 
+                -our deadlines are insane).</p>
+              </div>
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step1_img.png">
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step2_img.png" style="float:left">
+              </div>
+              <div class="col-md-6 step2-content">
+                <h2>step2</h2>
+                <h3>We shortlist and contact you</h3>
+                <p>Once we’ve reviewed your application and you have<br> 
+                  us convinced that we want to spend a week with you,<br> 
+                  we’ll have a quick chat over the phone. Just so you<br> 
+                  know, everyone in our team is here because they<br> 
+                  got past two tests: skill and culture fit.</p>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step6-content">
+                <h2>step3</h2>
+                <h3>Party, Code, Party. Repeat.</h3>
+                <p>If you’re selected, we’ll bring you over to our Gurgaon<br> 
+                  headquarters to spend an all-expenses-paid week<br> 
+                  (more details at the bottom of the page) with our<br> 
+                  engineering team. You’ll work on solving actual<br> 
+                  problems and creating products that will be rolled<br> 
+                  out as part of our development roadmap. It's<br> 
+                  hard work, but twice as fun.</p>
+              </div>
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step6_img.png">
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step4_img.png" style="float:left">
+              </div>
+              <div class="col-md-6 step4-content">
+                 <h2>step4</h2>
+                 <h3>Zoman!</h3>
+                 <p>By the end of the week, we'd have spent enough time <br>
+                  with one another to know how well we can work together.<br> 
+                  If there's that mutual spark and we know we can build<br> 
+                  delicious things together that create magic for a long time<br> 
+                  to come, we'd love nothing more than to have you become<br> 
+                  a full-time Zoman.</p>
+               </div> 
+            </div>
           </div>
-        </div>
-        <div class="row ">
-          <div class="col-md-6 step-img">
-            <img class="img-responsive center-block" src="img/step2_img.png" style="float:left">
+          <div role="tabpanel" class="tab-pane" id="SalesTab">
+            <div class="row ">
+              <div class="col-md-6 step1-content">
+                <h2>step1</h2>
+                <h3>You write to us</h3>
+                <p>Go on and apply if you:<br><br>
+                Have 1+ year of solid development experience.<br>
+                Are passionate about coding and possess excellent<br> 
+                analytical and problem-solving skills.<br>
+                Are comfortable with PHP, CSS, HTML, or AJAX.<br> 
+                You should also be able to pick up and use any new<br> 
+                language/protocol/framework outside of your core<br> 
+                experience with ease.<br>
+                Are a mobile developer – iOS, Android, or Windows<br> 
+                Phone.<br>
+                Can take ownership of a product – from design and<br> 
+                development, to deploying and debugging.<br>
+                Work as a team player, even in high-pressure situations<br> 
+                and on tight deadlines (this is a mandatory requirement<br> 
+                -our deadlines are insane).</p>
+              </div>
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step1_img.png">
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step2_img.png" style="float:left">
+              </div>
+              <div class="col-md-6 step2-content">
+                <h2>step2</h2>
+                <h3>We shortlist and contact you</h3>
+                <p>Once we’ve reviewed your application and you have<br> 
+                  us convinced that we want to spend a week with you,<br> 
+                  we’ll have a quick chat over the phone. Just so you<br> 
+                  know, everyone in our team is here because they<br> 
+                  got past two tests: skill and culture fit.</p>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step3-content">
+                <h2>step3</h2>
+                <h3>Party, Code, Party. Repeat.</h3>
+                <p>If you’re selected, we’ll bring you over to our Gurgaon<br> 
+                  headquarters to spend an all-expenses-paid week<br> 
+                  (more details at the bottom of the page) with our<br> 
+                  engineering team. You’ll work on solving actual<br> 
+                  problems and creating products that will be rolled<br> 
+                  out as part of our development roadmap. It's<br> 
+                  hard work, but twice as fun.</p>
+              </div>
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step3_img.png">
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-md-6 step-img">
+                <img class="img-responsive center-block" src="img/step4_img.png" style="float:left">
+              </div>
+              <div class="col-md-6 step4-content">
+                 <h2>step4</h2>
+                 <h3>Zoman!</h3>
+                 <p>By the end of the week, we'd have spent enough time <br>
+                  with one another to know how well we can work together.<br> 
+                  If there's that mutual spark and we know we can build<br> 
+                  delicious things together that create magic for a long time<br> 
+                  to come, we'd love nothing more than to have you become<br> 
+                  a full-time Zoman.</p>
+               </div> 
+            </div>
           </div>
-          <div class="col-md-6 step2-content">
-            <h2>step2</h2>
-            <h3>We shortlist and contact you</h3>
-            <p>Once we’ve reviewed your application and you have<br> 
-              us convinced that we want to spend a week with you,<br> 
-              we’ll have a quick chat over the phone. Just so you<br> 
-              know, everyone in our team is here because they<br> 
-              got past two tests: skill and culture fit.</p>
-          </div>
-        </div>
-        <div class="row ">
-          <div class="col-md-6 step3-content">
-            <h2>step3</h2>
-            <h3>Party, Code, Party. Repeat.</h3>
-            <p>If you’re selected, we’ll bring you over to our Gurgaon<br> 
-              headquarters to spend an all-expenses-paid week<br> 
-              (more details at the bottom of the page) with our<br> 
-              engineering team. You’ll work on solving actual<br> 
-              problems and creating products that will be rolled<br> 
-              out as part of our development roadmap. It's<br> 
-              hard work, but twice as fun.</p>
-          </div>
-          <div class="col-md-6 step-img">
-            <img class="img-responsive center-block" src="img/step3_img.png">
-          </div>
-        </div>
-        <div class="row ">
-          <div class="col-md-6 step-img">
-            <img class="img-responsive center-block" src="img/step4_img.png" style="float:left">
-          </div>
-          <div class="col-md-6 step4-content">
-             <h2>step4</h2>
-             <h3>Zoman!</h3>
-             <p>By the end of the week, we'd have spent enough time <br>
-              with one another to know how well we can work together.<br> 
-              If there's that mutual spark and we know we can build<br> 
-              delicious things together that create magic for a long time<br> 
-              to come, we'd love nothing more than to have you become<br> 
-              a full-time Zoman.</p>
-           </div> 
         </div>
         <div class="applyNow">
           <button class="applyNow-btn center-block">apply now</button>
         </div>
       </div>
     </section>
-
-
-  
-          
-
-  
-         
-          
-    
-    
 
 
   <?php require_once( "views/footer.php"); ?>
